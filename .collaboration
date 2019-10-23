@@ -81,7 +81,16 @@
   },
   {
     "ModuleName": "CellTypeDisplay",
-    "ModuleType": 1
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-23T17:00:41.7134687+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\CellTypeDisplay.json"
+    ]
   },
   {
     "ModuleName": "FGC_母版页",
@@ -144,20 +153,38 @@
   },
   {
     "ModuleName": "DifferentType_详情页面1",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "DifferentType_列表页面1",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "ConverTableotbuiltin_详情页面",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\Emmazhao",
       "Email": "Emma.zhao@grapecity.com"
     },
-    "LockDateTime": "2019-10-23T15:27:31.6329895+08:00",
+    "LockDateTime": "2019-10-23T17:00:41.7149663+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\DifferentType_详情页面1.json"
+    ]
+  },
+  {
+    "ModuleName": "DifferentType_列表页面1",
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-23T17:00:41.7149663+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\DifferentType_列表页面1.json"
+    ]
+  },
+  {
+    "ModuleName": "ConverTableotbuiltin_详情页面",
+    "State": 4,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-23T17:00:41.7139678+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\ConverTableotbuiltin_详情页面.json"
@@ -165,12 +192,12 @@
   },
   {
     "ModuleName": "ConverTableotbuiltin_列表页面",
-    "State": 1,
+    "State": 4,
     "LockedBy": {
       "UserName": "GRAPECITY\\Emmazhao",
       "Email": "Emma.zhao@grapecity.com"
     },
-    "LockDateTime": "2019-10-23T15:27:31.6334886+08:00",
+    "LockDateTime": "2019-10-23T17:00:41.7139678+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\ConverTableotbuiltin_列表页面.json"

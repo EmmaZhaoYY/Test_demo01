@@ -89,18 +89,7 @@
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-23T13:49:01.6525867+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
@@ -136,16 +125,7 @@
   },
   {
     "ModuleName": "大学报道登记信息表_列表页面",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-23T13:47:44.5913456+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\Builtinn-Externaldatabase-mysql\\大学报道登记信息表_列表页面.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\Builtinn-Externaldatabase-mysql",

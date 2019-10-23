@@ -5,8 +5,8 @@
       <Columns>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <AutoIncrement>True</AutoIncrement>
-          <ColumnType>System.Int64</ColumnType>
-          <DatabaseColumnType>System.Int64</DatabaseColumnType>
+          <ColumnType>System.Int32</ColumnType>
+          <DatabaseColumnType>bigint</DatabaseColumnType>
           <DefaultValue class="System.DBNull" assembly="mscorlib" />
           <MaxLength>-1</MaxLength>
           <Name>ID</Name>
@@ -15,26 +15,44 @@
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.String</ColumnType>
+          <DatabaseColumnType>varchar</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>500</MaxLength>
           <Name>名称</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Int64</ColumnType>
+          <DatabaseColumnType>bigint</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
           <Name>年龄</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Double</ColumnType>
+          <DatabaseColumnType>double</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
           <Name>学费</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.DateTime</ColumnType>
+          <DatabaseColumnType>datetime</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
           <Name>报到日期</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.DateTime</ColumnType>
+          <DatabaseColumnType>datetime</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
           <Name>提交日期</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.BindingColumn" assembly="Forguncy">
           <ColumnType>System.Boolean</ColumnType>
+          <DatabaseColumnType>tinyint</DatabaseColumnType>
+          <DefaultValue class="System.DBNull" assembly="mscorlib" />
+          <MaxLength>-1</MaxLength>
           <Name>是否登记</Name>
         </Item>
         <Item class="Forguncy.Model.Tables.UserExtraBingingColumn" assembly="Forguncy">
@@ -54,6 +72,13 @@
           <Name>FGC_LastModifyDate</Name>
         </Item>
       </Columns>
+      <ExternalDatabaseInfo>
+        <AllowModifySchema>True</AllowModifySchema>
+        <DataBaseType>MySql</DataBaseType>
+        <ESourceConnectString>VhlwCYHmdDhfqRuAlUquS1uykFfhsxi+dGUrBmChWNnfl8KcqJkP7p7pGCmC5QO8+Ew75wyEaKIzeTPGvwZHKNXnArzvlIagraDe9hpdEtg=</ESourceConnectString>
+        <SourceConnectString>Server=ffgcs08r2std;User Id=root;Password=xA123456;Database=world</SourceConnectString>
+        <SourceTableName>大学报道登记信息表</SourceTableName>
+      </ExternalDatabaseInfo>
       <Name>大学报道登记信息表</Name>
       <PrimaryKey>
         <Item type="System.String">

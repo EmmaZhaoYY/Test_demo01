@@ -1,0 +1,341 @@
+{
+  "Rows": {
+    "Sizes": {
+      "3": 30.0,
+      "5": 30.0,
+      "7": 30.0,
+      "9": 30.0,
+      "11": 30.0,
+      "13": 30.0
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,6": "ID:",
+    "5,6": "文本:",
+    "7,6": "文本1:",
+    "9,6": "文本2:",
+    "11,6": "文本3:",
+    "13,16": "取消"
+  },
+  "AttachInfos": {
+    "3,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy",
+            "Enabled": true
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "TextFieldforOracle",
+        "ColumnName": "ID"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
+    },
+    "5,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "TextFieldforOracle",
+        "ColumnName": "文本"
+      }
+    },
+    "7,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "TextFieldforOracle",
+        "ColumnName": "文本1"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
+    },
+    "9,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "TextFieldforOracle",
+        "ColumnName": "文本2"
+      }
+    },
+    "11,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "TextFieldforOracle",
+        "ColumnName": "文本3"
+      }
+    },
+    "13,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=TextFieldforOracle_详情页面!K14"
+                      }
+                    ]
+                  },
+                  "value": "添加",
+                  "Id": "5a119e7f-d22e-4589-862d-7b1e19360d8d"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "TextFieldforOracle",
+                    "UpdateType": "add",
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "891920c1-30ca-4975-bc5d-0935a547735f"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=TextFieldforOracle_详情页面!K14"
+                      }
+                    ]
+                  },
+                  "value": "更改",
+                  "Id": "4dc8210c-3ca3-457c-8e51-e7298fd94919"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "TextFieldforOracle",
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "829383c9-da7f-49e3-bbc4-dfdb9cfc58e3"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "13,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "5,6": 0,
+      "7,6": 0,
+      "9,6": 0,
+      "11,6": 0
+    },
+    "SheetStyle": {
+      "FontFamily": 1
+    }
+  },
+  "Spans": [
+    "3,14,1,6",
+    "5,14,1,6",
+    "7,14,1,6",
+    "9,14,1,6",
+    "11,14,1,6",
+    "13,10,1,4",
+    "13,16,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

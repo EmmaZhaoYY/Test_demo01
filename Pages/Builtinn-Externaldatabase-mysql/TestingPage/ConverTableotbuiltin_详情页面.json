@@ -33,7 +33,7 @@
   "AttachInfos": {
     "3,14": {
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
+        "TableName": "TableSetting",
         "ColumnName": "ID"
       }
     },
@@ -62,7 +62,7 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
+        "TableName": "TableSetting",
         "ColumnName": "文本"
       }
     },
@@ -86,7 +86,7 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
+        "TableName": "TableSetting",
         "ColumnName": "整数"
       }
     },
@@ -111,7 +111,7 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
+        "TableName": "TableSetting",
         "ColumnName": "小数"
       }
     },
@@ -135,7 +135,7 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
+        "TableName": "TableSetting",
         "ColumnName": "日期"
       }
     },
@@ -159,7 +159,7 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
+        "TableName": "TableSetting",
         "ColumnName": "时间"
       }
     },
@@ -183,7 +183,7 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
+        "TableName": "TableSetting",
         "ColumnName": "是_否"
       }
     },
@@ -208,7 +208,7 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
+        "TableName": "TableSetting",
         "ColumnName": "用户"
       }
     },
@@ -231,7 +231,7 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
+        "TableName": "TableSetting",
         "ColumnName": "图片"
       }
     },
@@ -254,7 +254,7 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
+        "TableName": "TableSetting",
         "ColumnName": "附件"
       }
     },
@@ -282,7 +282,7 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                    "TableName": "ConverTableotbuiltin",
+                    "TableName": "TableSetting",
                     "UpdateType": "add",
                     "ConfirmText": "您确定添加这条记录?",
                     "UpdateValues": []
@@ -307,7 +307,7 @@
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                    "TableName": "ConverTableotbuiltin",
+                    "TableName": "TableSetting",
                     "ConfirmText": "您确定要更新这行记录吗？",
                     "UpdateValues": []
                   }

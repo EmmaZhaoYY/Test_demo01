@@ -13,13 +13,13 @@
     "Count": 60
   },
   "Values": {
-    "3,24": "ConverTableotbuiltin 列表",
+    "3,26": "Necessary01 列表",
     "7,6": "添加记录",
-    "9,35": "更改",
-    "9,38": "删除"
+    "9,38": "更改",
+    "9,41": "删除"
   },
   "AttachInfos": {
-    "5,36": {
+    "5,39": {
       "CellType": {
         "$type": "Forguncy.CurrentUserCellType, Forguncy",
         "NavigateToHomePageWhenLogout": true,
@@ -32,12 +32,12 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, Forguncy",
-            "PageName": "ConverTableotbuiltin_详情页面",
+            "PageName": "Necessary01_详情页面",
             "PassValues": [
               {
                 "Source": "添加",
                 "TargetCell": {
-                  "SerializeProperty": "=ConverTableotbuiltin_详情页面!K34"
+                  "SerializeProperty": "=Necessary01_详情页面!K34"
                 }
               }
             ],
@@ -65,10 +65,10 @@
     "8,6": {
       "ListViewInfo": {
         "ShowColumnHeaderInDesigner": true,
-        "TableName": "ConverTableotbuiltin",
+        "TableName": "Necessary01",
         "RowIndex": 8,
         "ColumnIndex": 6,
-        "ColumnCount": 38,
+        "ColumnCount": 40,
         "RowCount": 12,
         "IsRowHeaderVisible": true,
         "AllowEditInListview": true,
@@ -81,78 +81,55 @@
         "ListViewStyleName": "_RS_Medium2"
       }
     },
-    "8,45": {
-      "CellType": {
-        "$type": "Forguncy.TextCellType, Forguncy",
-        "SavedValidators": [
-          {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
-          }
-        ],
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
-      },
-      "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
-        "ColumnName": "文本"
-      }
-    },
     "9,8": {
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
-        "ColumnName": "文本"
+        "TableName": "Necessary01",
+        "ColumnName": "ID"
       }
     },
     "9,11": {
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
-        "ColumnName": "整数"
+        "TableName": "Necessary01",
+        "ColumnName": "文本"
       }
     },
     "9,14": {
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
-        "ColumnName": "小数"
+        "TableName": "Necessary01",
+        "ColumnName": "整数"
       }
     },
     "9,17": {
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
-        "ColumnName": "日期"
+        "TableName": "Necessary01",
+        "ColumnName": "小数"
       }
     },
     "9,20": {
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
-        "ColumnName": "时间"
+        "TableName": "Necessary01",
+        "ColumnName": "日期"
       }
     },
     "9,23": {
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
-        "ColumnName": "是_否"
+        "TableName": "Necessary01",
+        "ColumnName": "时间"
       }
     },
     "9,26": {
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
-        "ColumnName": "用户"
+        "TableName": "Necessary01",
+        "ColumnName": "是_否"
       }
     },
     "9,29": {
+      "BindingInfo": {
+        "TableName": "Necessary01",
+        "ColumnName": "用户"
+      }
+    },
+    "9,32": {
       "CellType": {
         "$type": "Forguncy.UploadImageCellType, Forguncy",
         "UIPermissions": [
@@ -171,11 +148,11 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
+        "TableName": "Necessary01",
         "ColumnName": "图片"
       }
     },
-    "9,32": {
+    "9,35": {
       "CellType": {
         "$type": "Forguncy.AttachmentCelltype, Forguncy",
         "UIPermissions": [
@@ -194,22 +171,22 @@
         ]
       },
       "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
+        "TableName": "Necessary01",
         "ColumnName": "附件"
       }
     },
-    "9,35": {
+    "9,38": {
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, Forguncy",
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, Forguncy",
-            "PageName": "ConverTableotbuiltin_详情页面",
+            "PageName": "Necessary01_详情页面",
             "PassValues": [
               {
                 "Source": "更改",
                 "TargetCell": {
-                  "SerializeProperty": "=ConverTableotbuiltin_详情页面!K34"
+                  "SerializeProperty": "=Necessary01_详情页面!K34"
                 }
               }
             ],
@@ -234,7 +211,7 @@
         ]
       }
     },
-    "9,38": {
+    "9,41": {
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, Forguncy",
         "CommandList": [
@@ -260,22 +237,6 @@
             ]
           }
         ]
-      }
-    },
-    "9,41": {
-      "BindingInfo": {
-        "TableName": "ConverTableotbuiltin",
-        "ColumnName": "FGC_State"
-      }
-    },
-    "10,45": {
-      "CellType": {
-        "$type": "Forguncy.ProcessBarCellType, Forguncy",
-        "TableName": "ConverTableotbuiltin",
-        "DesignTimeShowState": {
-          "TableName": "ConverTableotbuiltin",
-          "SelectedID": "13ce2bec-a7b3-4992-a4ea-440ad0881215"
-        }
       }
     }
   },
@@ -360,8 +321,8 @@
       ]
     },
     "CellStyles": {
-      "3,24": 0,
-      "5,36": 1,
+      "3,26": 0,
+      "5,39": 1,
       "7,6": 2,
       "8,6": 3,
       "8,7": 4,
@@ -400,7 +361,9 @@
       "8,40": 4,
       "8,41": 4,
       "8,42": 4,
-      "8,43": 5,
+      "8,43": 4,
+      "8,44": 4,
+      "8,45": 5,
       "9,6": 6,
       "9,7": 7,
       "9,8": 7,
@@ -427,7 +390,7 @@
       "9,29": 7,
       "9,30": 7,
       "9,31": 7,
-      "9,32": 8,
+      "9,32": 7,
       "9,33": 7,
       "9,34": 7,
       "9,35": 8,
@@ -436,34 +399,28 @@
       "9,38": 8,
       "9,39": 7,
       "9,40": 7,
-      "9,43": 9,
+      "9,41": 8,
+      "9,42": 7,
+      "9,43": 7,
+      "9,45": 9,
       "10,6": 10,
-      "10,42": 9,
-      "10,43": 9,
+      "10,45": 9,
       "11,6": 10,
-      "11,42": 9,
-      "11,43": 9,
+      "11,45": 9,
       "12,6": 10,
-      "12,42": 9,
-      "12,43": 9,
+      "12,45": 9,
       "13,6": 10,
-      "13,42": 9,
-      "13,43": 9,
+      "13,45": 9,
       "14,6": 10,
-      "14,42": 9,
-      "14,43": 9,
+      "14,45": 9,
       "15,6": 10,
-      "15,42": 9,
-      "15,43": 9,
+      "15,45": 9,
       "16,6": 10,
-      "16,42": 9,
-      "16,43": 9,
+      "16,45": 9,
       "17,6": 10,
-      "17,42": 9,
-      "17,43": 9,
+      "17,45": 9,
       "18,6": 10,
-      "18,42": 9,
-      "18,43": 9,
+      "18,45": 9,
       "19,6": 11,
       "19,7": 12,
       "19,8": 12,
@@ -500,44 +457,44 @@
       "19,39": 12,
       "19,40": 12,
       "19,41": 12,
-      "19,42": 13,
-      "19,43": 13
+      "19,42": 12,
+      "19,43": 12,
+      "19,44": 12,
+      "19,45": 13
     },
     "SheetStyle": {
       "FontFamily": 5
     }
   },
   "Spans": [
-    "5,36,1,7",
+    "5,39,1,7",
+    "10,6,10,40",
     "9,6,1,2",
-    "9,8,1,3",
-    "9,11,1,3",
-    "9,14,1,3",
-    "9,17,1,3",
-    "9,20,1,3",
-    "9,23,1,3",
-    "9,26,1,3",
-    "9,29,1,3",
-    "9,32,1,3",
-    "9,35,1,3",
-    "9,38,1,3",
-    "8,45,1,8",
-    "10,45,6,13",
-    "10,6,10,38",
     "8,6,1,2",
+    "9,8,1,3",
     "8,8,1,3",
+    "9,11,1,3",
     "8,11,1,3",
+    "9,14,1,3",
     "8,14,1,3",
+    "9,17,1,3",
     "8,17,1,3",
+    "9,20,1,3",
     "8,20,1,3",
+    "9,23,1,3",
     "8,23,1,3",
+    "9,26,1,3",
     "8,26,1,3",
+    "9,29,1,3",
     "8,29,1,3",
+    "9,32,1,3",
     "8,32,1,3",
+    "9,35,1,3",
     "8,35,1,3",
+    "9,38,1,3",
     "8,38,1,3",
-    "8,41,1,3",
-    "9,41,1,3"
+    "9,41,1,3",
+    "8,41,1,3"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",

@@ -4,4 +4,12 @@
     <ConnectionString>Server=ffgcs08r2std;User Id=root;Password=xA123456;Database=world</ConnectionString>
     <DataBaseType>MySql</DataBaseType>
   </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="Forguncy">
+    <ConnectionString>Data Source=ssql12orcl11;User ID=oracletest;Password=xA123456;Unicode=True</ConnectionString>
+    <DataBaseType>Oracle</DataBaseType>
+  </Item>
+  <Item class="Forguncy.Model.Tables.DataConnectionInfo" assembly="Forguncy">
+    <ConnectionString>Data Source=SSQL12ORCL11;Initial Catalog=xa-dd3-emma;Persist Security Info=True;User ID=sa;Password=xA123456</ConnectionString>
+    <DataBaseType>SqlServer</DataBaseType>
+  </Item>
 </DataConnectionSet>

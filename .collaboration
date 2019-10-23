@@ -265,5 +265,25 @@
     },
     "LockDateTime": "2019-10-23T16:55:26.6792799+08:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "TextFieldforOracle_详情页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-23T16:55:49.9185208+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "TextFieldforOracle_列表页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-23T16:55:49.9185208+08:00",
+    "ModuleType": 1
   }
 ]

@@ -149,5 +149,15 @@
     },
     "LockDateTime": "2019-10-23T13:45:46.7864043+08:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\Builtinn-Externaldatabase-mysql",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-23T13:46:35.2904053+08:00",
+    "ModuleType": 6
   }
 ]

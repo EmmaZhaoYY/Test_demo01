@@ -116,7 +116,16 @@
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
-    "ModuleType": 11
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-23T15:15:01.2277932+08:00",
+    "ModuleType": 11,
+    "ToRemoveFiles": [
+      "UserServiceDB.sqlite3"
+    ]
   },
   {
     "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",

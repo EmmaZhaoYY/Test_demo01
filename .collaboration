@@ -245,5 +245,25 @@
     },
     "LockDateTime": "2019-10-23T16:20:01.1336531+08:00",
     "ModuleType": 1
+  },
+  {
+    "ModuleName": "workflowforsql_详情页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-23T16:55:26.6792799+08:00",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "workflowforsql_列表页面",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-23T16:55:26.6792799+08:00",
+    "ModuleType": 1
   }
 ]

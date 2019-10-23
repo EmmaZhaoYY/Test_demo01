@@ -105,7 +105,16 @@
   },
   {
     "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
-    "ModuleType": 12
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\Emmazhao",
+      "Email": "Emma.zhao@grapecity.com"
+    },
+    "LockDateTime": "2019-10-23T09:28:00.7992103+08:00",
+    "ModuleType": 12,
+    "ToRemoveFiles": [
+      "CustomLibraries"
+    ]
   },
   {
     "ModuleName": "a7048ae8-d3c8-4136-ae00-39002dbdc3d8",

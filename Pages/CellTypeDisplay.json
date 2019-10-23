@@ -86,6 +86,28 @@
         "CellDefaultValue": "Textbox"
       }
     },
+    "1,19": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "ImagePath": "Application/053_settings_4.svg",
+        "BuiltIn": true,
+        "Color": "Accent 6 -25"
+      }
+    },
     "3,2": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, Forguncy",
@@ -610,7 +632,8 @@
     "9,11,1,7",
     "13,11,1,7",
     "15,11,1,7",
-    "11,11,1,7"
+    "11,11,1,7",
+    "1,19,5,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",

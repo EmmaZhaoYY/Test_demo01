@@ -54,7 +54,7 @@
           <Name>FGC_LastModifyDate</Name>
         </Item>
       </Columns>
-      <Name>表1</Name>
+      <Name>大学报道登记信息表</Name>
       <PrimaryKey>
         <Item type="System.String">
           <Value>ID</Value>

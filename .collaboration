@@ -89,18 +89,7 @@
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-23T14:00:54.4965411+08:00",
-    "ModuleType": 7,
-    "ToRemoveFiles": [
-      "TableSet",
-      "ForguncyDB.sqlite3",
-      "DataConnectionSet"
-    ]
+    "ModuleType": 7
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
@@ -116,16 +105,7 @@
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-23T15:15:01.2277932+08:00",
-    "ModuleType": 11,
-    "ToRemoveFiles": [
-      "UserServiceDB.sqlite3"
-    ]
+    "ModuleType": 11
   },
   {
     "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
@@ -153,42 +133,18 @@
   },
   {
     "ModuleName": "DifferentType_详情页面1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-23T15:04:57.6375997+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "DifferentType_列表页面1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-23T15:04:57.6375997+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "ConverTableotbuiltin_详情页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-23T15:10:38.6032108+08:00",
     "ModuleType": 1
   },
   {
     "ModuleName": "ConverTableotbuiltin_列表页面",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\Emmazhao",
-      "Email": "Emma.zhao@grapecity.com"
-    },
-    "LockDateTime": "2019-10-23T15:10:38.6032108+08:00",
     "ModuleType": 1
   }
 ]

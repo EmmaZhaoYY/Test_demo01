@@ -1,0 +1,532 @@
+{
+  "Rows": {
+    "Sizes": {
+      "5": 30.0,
+      "7": 30.0,
+      "9": 30.0,
+      "11": 30.0,
+      "13": 30.0,
+      "15": 30.0,
+      "17": 30.0,
+      "19": 30.0,
+      "21": 30.0,
+      "23": 30.0,
+      "30": 30.0,
+      "37": 30.0
+    },
+    "Count": 45
+  },
+  "Cols": {
+    "Count": 60
+  },
+  "Values": {
+    "3,6": "ID:",
+    "5,6": "Textbox01:",
+    "7,6": "Text:",
+    "9,6": "Long_Text:",
+    "11,6": "整数:",
+    "13,6": "小数:",
+    "15,6": "日期:",
+    "17,6": "时间:",
+    "19,6": "是_否:",
+    "21,6": "用户:",
+    "23,6": "图片:",
+    "30,6": "附件:",
+    "37,16": "取消"
+  },
+  "AttachInfos": {
+    "3,14": {
+      "BindingInfo": {
+        "TableName": "DifferentType",
+        "ColumnName": "ID"
+      }
+    },
+    "5,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy",
+            "Enabled": true
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "DifferentType",
+        "ColumnName": "Textbox01"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
+    },
+    "7,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "DifferentType",
+        "ColumnName": "Text"
+      }
+    },
+    "9,14": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "DifferentType",
+        "ColumnName": "Long_Text"
+      }
+    },
+    "11,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "DifferentType",
+        "ColumnName": "整数"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
+    },
+    "13,14": {
+      "CellType": {
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "DecimalPlacesNumber": 4,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "DifferentType",
+        "ColumnName": "小数"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
+    },
+    "15,14": {
+      "CellType": {
+        "$type": "Forguncy.DateCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "DifferentType",
+        "ColumnName": "日期"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
+    },
+    "17,14": {
+      "CellType": {
+        "$type": "Forguncy.TimeCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "DifferentType",
+        "ColumnName": "时间"
+      }
+    },
+    "19,14": {
+      "CellType": {
+        "$type": "Forguncy.CheckBoxCellType, Forguncy",
+        "Style": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "DifferentType",
+        "ColumnName": "是_否"
+      }
+    },
+    "21,14": {
+      "CellType": {
+        "$type": "Forguncy.UserCellType, Forguncy",
+        "Columns": 1,
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "DifferentType",
+        "ColumnName": "用户"
+      }
+    },
+    "23,14": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "DifferentType",
+        "ColumnName": "图片"
+      }
+    },
+    "30,14": {
+      "CellType": {
+        "$type": "Forguncy.AttachmentCelltype, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "DifferentType",
+        "ColumnName": "附件"
+      }
+    },
+    "37,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=DifferentType_详情页面1!K38"
+                      }
+                    ]
+                  },
+                  "value": "添加",
+                  "Id": "a69ebed0-a828-4a0a-a11d-cce51477e056"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "DifferentType",
+                    "UpdateType": "add",
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "ae4f94e7-8f4e-4be4-8f9b-969c58cb6943"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=DifferentType_详情页面1!K38"
+                      }
+                    ]
+                  },
+                  "value": "更改",
+                  "Id": "61075e46-0a78-4934-a6a4-999bb3ada813"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "DifferentType",
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "485b14d3-317d-46bb-a41b-e94723c883dc"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "37,16": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消",
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontWeight": 0
+      },
+      {
+        "Foreground": 1,
+        "Underline": true
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "Bold",
+        "Blue",
+        "Body"
+      ]
+    },
+    "CellStyles": {
+      "3,6": 0,
+      "5,6": 0,
+      "7,6": 0,
+      "9,6": 0,
+      "11,6": 0,
+      "13,6": 0,
+      "15,6": 0,
+      "17,6": 0,
+      "19,6": 0,
+      "21,6": 0,
+      "23,6": 0,
+      "30,6": 0,
+      "30,14": 1
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "3,14,1,6",
+    "5,14,1,6",
+    "7,14,1,6",
+    "9,14,1,6",
+    "11,14,1,6",
+    "13,14,1,6",
+    "15,14,1,6",
+    "17,14,1,6",
+    "19,14,1,6",
+    "21,14,1,6",
+    "23,14,6,6",
+    "30,14,6,6",
+    "37,10,1,4",
+    "37,16,1,4"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "AuthorizeInfo": {
+      "VisitMode": 2
+    }
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

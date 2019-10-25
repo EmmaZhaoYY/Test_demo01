@@ -1,8 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ApplicationSettings>
   <IntegrateWithOtherApplication>
-    <Password>nNA5%EBSwUj~</Password>
+    <Password>)d0EN5yAxfG7</Password>
   </IntegrateWithOtherApplication>
-  <UserServicePort>40104</UserServicePort>
-  <WebSitePort>20178</WebSitePort>
+  <StartPage>表1_列表页面</StartPage>
+  <UserServicePort>21998</UserServicePort>
+  <WebSitePort>57607</WebSitePort>
 </ApplicationSettings>

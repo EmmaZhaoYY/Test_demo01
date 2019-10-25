@@ -13,13 +13,39 @@
     "Count": 60
   },
   "Values": {
-    "3,26": "Necessary01 列表",
+    "3,14": "表2 列表",
     "7,6": "添加记录",
-    "9,38": "更改",
-    "9,41": "删除"
+    "9,14": "更改",
+    "9,17": "删除"
   },
   "AttachInfos": {
-    "5,39": {
+    "5,6": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ExportPageToExcelCommand, Forguncy",
+            "NewOtherName": ""
+          }
+        ],
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      }
+    },
+    "5,15": {
       "CellType": {
         "$type": "Forguncy.CurrentUserCellType, Forguncy",
         "NavigateToHomePageWhenLogout": true,
@@ -32,12 +58,12 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, Forguncy",
-            "PageName": "Necessary01_详情页面",
+            "PageName": "表2_详情页面",
             "PassValues": [
               {
                 "Source": "添加",
                 "TargetCell": {
-                  "SerializeProperty": "=Necessary01_详情页面!K34"
+                  "SerializeProperty": "=表2_详情页面!K10"
                 }
               }
             ],
@@ -65,15 +91,13 @@
     "8,6": {
       "ListViewInfo": {
         "ShowColumnHeaderInDesigner": true,
-        "TableName": "Necessary01",
+        "TableName": "表2",
         "RowIndex": 8,
         "ColumnIndex": 6,
-        "ColumnCount": 40,
+        "ColumnCount": 16,
         "RowCount": 12,
         "IsRowHeaderVisible": true,
-        "AllowEditInListview": true,
-        "AllowAddNewRow": true,
-        "ShowDeleteButton": true,
+        "IsTotalRowVisible": true,
         "ColumnOperation": 2,
         "ShowGridLine": true,
         "Name": "表格1",
@@ -82,111 +106,35 @@
       }
     },
     "9,8": {
+      "TotalRowSetting": {
+        "FormulaType": 3
+      },
       "BindingInfo": {
-        "TableName": "Necessary01",
-        "ColumnName": "ID"
-      }
-    },
-    "9,11": {
-      "BindingInfo": {
-        "TableName": "Necessary01",
-        "ColumnName": "文本"
-      }
-    },
-    "9,14": {
-      "BindingInfo": {
-        "TableName": "Necessary01",
-        "ColumnName": "整数"
-      }
-    },
-    "9,17": {
-      "BindingInfo": {
-        "TableName": "Necessary01",
-        "ColumnName": "小数"
-      }
-    },
-    "9,20": {
-      "BindingInfo": {
-        "TableName": "Necessary01",
+        "TableName": "表2",
         "ColumnName": "日期"
       }
     },
-    "9,23": {
+    "9,11": {
+      "TotalRowSetting": {
+        "FormulaType": 4
+      },
       "BindingInfo": {
-        "TableName": "Necessary01",
+        "TableName": "表2",
         "ColumnName": "时间"
       }
     },
-    "9,26": {
-      "BindingInfo": {
-        "TableName": "Necessary01",
-        "ColumnName": "是_否"
-      }
-    },
-    "9,29": {
-      "BindingInfo": {
-        "TableName": "Necessary01",
-        "ColumnName": "用户"
-      }
-    },
-    "9,32": {
-      "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
-      },
-      "BindingInfo": {
-        "TableName": "Necessary01",
-        "ColumnName": "图片"
-      }
-    },
-    "9,35": {
-      "CellType": {
-        "$type": "Forguncy.AttachmentCelltype, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
-      },
-      "BindingInfo": {
-        "TableName": "Necessary01",
-        "ColumnName": "附件"
-      }
-    },
-    "9,38": {
+    "9,14": {
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, Forguncy",
         "CommandList": [
           {
             "$type": "Forguncy.Model.NavigateCommand, Forguncy",
-            "PageName": "Necessary01_详情页面",
+            "PageName": "表2_详情页面",
             "PassValues": [
               {
                 "Source": "更改",
                 "TargetCell": {
-                  "SerializeProperty": "=Necessary01_详情页面!K34"
+                  "SerializeProperty": "=表2_详情页面!K10"
                 }
               }
             ],
@@ -211,7 +159,7 @@
         ]
       }
     },
-    "9,41": {
+    "9,17": {
       "CellType": {
         "$type": "Forguncy.HyperlinkCellType, Forguncy",
         "CommandList": [
@@ -321,8 +269,8 @@
       ]
     },
     "CellStyles": {
-      "3,26": 0,
-      "5,39": 1,
+      "3,14": 0,
+      "5,15": 1,
       "7,6": 2,
       "8,6": 3,
       "8,7": 4,
@@ -339,31 +287,7 @@
       "8,18": 4,
       "8,19": 4,
       "8,20": 4,
-      "8,21": 4,
-      "8,22": 4,
-      "8,23": 4,
-      "8,24": 4,
-      "8,25": 4,
-      "8,26": 4,
-      "8,27": 4,
-      "8,28": 4,
-      "8,29": 4,
-      "8,30": 4,
-      "8,31": 4,
-      "8,32": 4,
-      "8,33": 4,
-      "8,34": 4,
-      "8,35": 4,
-      "8,36": 4,
-      "8,37": 4,
-      "8,38": 4,
-      "8,39": 4,
-      "8,40": 4,
-      "8,41": 4,
-      "8,42": 4,
-      "8,43": 4,
-      "8,44": 4,
-      "8,45": 5,
+      "8,21": 5,
       "9,6": 6,
       "9,7": 7,
       "9,8": 7,
@@ -372,55 +296,31 @@
       "9,11": 7,
       "9,12": 7,
       "9,13": 7,
-      "9,14": 7,
+      "9,14": 8,
       "9,15": 7,
       "9,16": 7,
-      "9,17": 7,
+      "9,17": 8,
       "9,18": 7,
       "9,19": 7,
-      "9,20": 7,
-      "9,21": 7,
-      "9,22": 7,
-      "9,23": 7,
-      "9,24": 7,
-      "9,25": 7,
-      "9,26": 7,
-      "9,27": 7,
-      "9,28": 7,
-      "9,29": 7,
-      "9,30": 7,
-      "9,31": 7,
-      "9,32": 7,
-      "9,33": 7,
-      "9,34": 7,
-      "9,35": 8,
-      "9,36": 7,
-      "9,37": 7,
-      "9,38": 8,
-      "9,39": 7,
-      "9,40": 7,
-      "9,41": 8,
-      "9,42": 7,
-      "9,43": 7,
-      "9,45": 9,
+      "9,21": 9,
       "10,6": 10,
-      "10,45": 9,
+      "10,21": 9,
       "11,6": 10,
-      "11,45": 9,
+      "11,21": 9,
       "12,6": 10,
-      "12,45": 9,
+      "12,21": 9,
       "13,6": 10,
-      "13,45": 9,
+      "13,21": 9,
       "14,6": 10,
-      "14,45": 9,
+      "14,21": 9,
       "15,6": 10,
-      "15,45": 9,
+      "15,21": 9,
       "16,6": 10,
-      "16,45": 9,
+      "16,21": 9,
       "17,6": 10,
-      "17,45": 9,
+      "17,21": 9,
       "18,6": 10,
-      "18,45": 9,
+      "18,21": 9,
       "19,6": 11,
       "19,7": 12,
       "19,8": 12,
@@ -436,65 +336,26 @@
       "19,18": 12,
       "19,19": 12,
       "19,20": 12,
-      "19,21": 12,
-      "19,22": 12,
-      "19,23": 12,
-      "19,24": 12,
-      "19,25": 12,
-      "19,26": 12,
-      "19,27": 12,
-      "19,28": 12,
-      "19,29": 12,
-      "19,30": 12,
-      "19,31": 12,
-      "19,32": 12,
-      "19,33": 12,
-      "19,34": 12,
-      "19,35": 12,
-      "19,36": 12,
-      "19,37": 12,
-      "19,38": 12,
-      "19,39": 12,
-      "19,40": 12,
-      "19,41": 12,
-      "19,42": 12,
-      "19,43": 12,
-      "19,44": 12,
-      "19,45": 13
+      "19,21": 13
     },
     "SheetStyle": {
       "FontFamily": 5
     }
   },
   "Spans": [
-    "5,39,1,7",
-    "10,6,10,40",
+    "5,15,1,7",
+    "10,6,10,16",
     "9,6,1,2",
-    "8,6,1,2",
     "9,8,1,3",
-    "8,8,1,3",
     "9,11,1,3",
-    "8,11,1,3",
     "9,14,1,3",
-    "8,14,1,3",
     "9,17,1,3",
+    "8,6,1,2",
+    "8,8,1,3",
+    "8,11,1,3",
+    "8,14,1,3",
     "8,17,1,3",
-    "9,20,1,3",
-    "8,20,1,3",
-    "9,23,1,3",
-    "8,23,1,3",
-    "9,26,1,3",
-    "8,26,1,3",
-    "9,29,1,3",
-    "8,29,1,3",
-    "9,32,1,3",
-    "8,32,1,3",
-    "9,35,1,3",
-    "8,35,1,3",
-    "9,38,1,3",
-    "8,38,1,3",
-    "9,41,1,3",
-    "8,41,1,3"
+    "5,6,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
